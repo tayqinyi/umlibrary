@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e63b1e9-9011-44d3-b177-2f7e9ad47649" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/book/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/book/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/book/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/book/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/book/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/book/api/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/book/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/book/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/book/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/book/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/book/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/gui/src/components/book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/gui/src/containers/bookview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/gui/src/containers/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/umlibrary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/umlibrary/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/umlibrary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/umlibrary/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/gui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/gui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/gui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/gui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/gui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/gui/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/gui/src/logo.svg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573643345182</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished backend bone">
+      <created>1573644797999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573644797999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,7 +120,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -130,6 +132,7 @@
     <MESSAGE value="New backend" />
     <MESSAGE value="Update backend" />
     <MESSAGE value="Add frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add frontend" />
+    <MESSAGE value="finished backend bone" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished backend bone" />
   </component>
 </project>
