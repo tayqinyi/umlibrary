@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-import Book from '../components/book';
+import Books from '../components/book';
 
 class BookView extends React.Component {
     state = {
@@ -18,7 +18,7 @@ class BookView extends React.Component {
 
     render() {
         return (
-            <Book data={this.state.books}/>
+            <Books data={this.state.books}/>
         )
     }
 }
